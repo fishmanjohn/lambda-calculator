@@ -21,10 +21,10 @@ const [display,setDisplay] = useState(0)
     <div className="container">
       <Logo />
       <div >
-      <Display />
+      < Display display={display} />
       </div>
       <div className="App" onClick ={()=>setDisplay(display 
-        + 'HaHa you thought this caculator worked!')} >
+        + 'haha you thought this was a calculator')} >
         <Numbers/>
         <Operators/>
         <Specials/>
