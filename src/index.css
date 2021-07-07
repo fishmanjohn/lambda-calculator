@@ -10,3 +10,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.App button{
+  background-color: blue ;
+  color:white; 
+  margin: 5%
+}
